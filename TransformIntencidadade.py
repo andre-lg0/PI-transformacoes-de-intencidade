@@ -31,4 +31,14 @@ class TranformIntecidade():
                 saida[i,j] = L  - self.matriz[i,j]
 
         img  = Image.fromarray(saida)
-        Image._show(img)       
+        Image._show(img)
+
+    def PowerLaw(self,gama,c=1):
+        saida = np.zeros([self.m,self.n])
+        for i in range(self.m):
+            for j in range(self.n):
+                saida[i,j] = int(c*(self.matriz[i,j]**gama))
+
+        img = Image.fromarray(saida)
+        Image._show(img)
+
