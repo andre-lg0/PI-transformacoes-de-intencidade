@@ -21,7 +21,7 @@ if __name__ == '__main__':
         if op == 1:
             intencidade.negative()
         elif op == 2:
-            print('Digite o valor do Gama e da constante (default = 1)')
+            print('Digite o valor do Gama e da constante')
             gama = float(input())
             c = float(input())
             intencidade.PowerLaw(gama,c) 
