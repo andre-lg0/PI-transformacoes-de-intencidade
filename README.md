@@ -1,4 +1,4 @@
-# PITrabalho3
+# PITrabalho4
 
 Trabalho #4 transformações de intencidade em imagens da disciplina de  Processamento de Imagens.
 
